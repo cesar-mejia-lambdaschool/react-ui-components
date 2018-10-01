@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-text {
+  width: 560px;
+  height: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+img {
+  width: 65px;
+}
