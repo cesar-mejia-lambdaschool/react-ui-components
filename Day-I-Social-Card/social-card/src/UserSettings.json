@@ -1,0 +1,282 @@
+{
+  //# VSCode Built-In Extension Settings
+  "files.autoSave": "off",
+  "editor.colorDecorators": true,
+  "editor.parameterHints": false,
+  "javascript.validate.enable": false, // standard.js will handle validation
+  "window.zoomLevel": 0,
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.fontSize": 16,
+  //# JavaScript Standard Style Options
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true,
+    },
+  ],
+  "standard.options": {
+    "parser": "babel-eslint",
+    "envs": [
+      "jest",
+      "mocha",
+      "node",
+      "jquery"
+    ],
+    "plugins": [
+      "html",
+    ],
+    "globals": [
+      "localStorage",
+    ],
+    "files.associations": {
+      "*.js": "javascriptreact"
+    },
+  },
+  //# Prettier Options
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+  //# Git Options
+  "git.enableSmartCommit": true,
+  "git.confirmSync": true,
+  "git.autofetch": false,
+  //# Git Lens Options
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  //# Better Comments Options
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "red",
+      "strikethrough": false
+    }, //! danger-color comment
+    {
+      "tag": "*",
+      "color": "yellow",
+      "strikethrough": false
+    }, //* warning-color comment
+    {
+      "tag": "td",
+      "color": "#FF8C00",
+      "strikethrough": false
+    }, //td TODO-color comment
+    {
+      "tag": "#",
+      "color": "cyan",
+      "strikethrough": false
+    }, //# important-color comment
+    {
+      "tag": "?",
+      "color": "#FF00FF",
+      "strikethrough": false
+    }, //? question-color comment
+    {
+      "tag": ">",
+      "color": "white",
+      "strikethrough": false
+    } //> generic-color comment
+  ],
+  //# Bracket Pair Colorizer Options
+  "bracketPairColorizer.showHorizontalScopeLine": true,
+  "bracketPairColorizer.showVerticalScopeLine": true,
+  "bracketPairColorizer.showBracketsInGutter": false,
+  "bracketPairColorizer.scopeLineRelativePosition": true,
+  "bracketPairColorizer.timeOut": 0,
+  "bracketPairColorizer.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}; opacity: 1"
+  ],
+  "bracketPairColorizer.scopeLineCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1.3px",
+    "borderColor : {color}; opacity: 1"
+  ],
+  //# Settings Sync Options
+  "sync.gist": "3ba264868bd00f196ac2a3bb3eaa4fc0",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  //# Code Spell Checker Options
+  "cSpell.showStatus": false,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".vscode",
+    "typings",
+    "package.json",
+  ],
+  "cSpell.words": [
+    "nums, crossorigin",
+  ],
+  "cSpell.ignoreWords": [
+    "Guster, Guten, Hola, fizzbuzz, Server-Testing-Mini",
+  ],
+  "cSpell.userWords": [
+    "aboutme",
+    "algos",
+    "and",
+    "asdf",
+    "authtoken",
+    "axios",
+    "beginnerguidetoreactjs",
+    "best",
+    "brainey",
+    "brand",
+    "chrono",
+    "cmyk",
+    "component",
+    "coord",
+    "destructures",
+    "dobbs",
+    "dosomethingelse",
+    "dothisbydefault",
+    "eich",
+    "eqeqeq",
+    "etag",
+    "fibona",
+    "figg",
+    "figgy",
+    "firebaserc",
+    "grider",
+    "guin",
+    "helvetica",
+    "heroku",
+    "herokuapp",
+    "homies",
+    "hypercwd",
+    "i",
+    "imgs",
+    "intelli",
+    "invis",
+    "iret",
+    "j",
+    "lambdanotesdb",
+    "minified",
+    "mlab",
+    "most",
+    "netlify",
+    "niklaus",
+    "notesdb",
+    "postgres",
+    "presentational",
+    "repo",
+    "repos",
+    "rerender",
+    "rgba",
+    "schmedtmann",
+    "scss",
+    "signin",
+    "spacex",
+    "srygley",
+    "standardjs",
+    "success",
+    "todos",
+    "trello",
+    "truthy",
+    "typeof",
+    "udemy",
+    "ullman",
+    "unmount",
+    "useful",
+    "will",
+    "wirth",
+    "xargs",
+    "yass"
+  ],
+  //# Misc Setting Organize Later
+  "editor.snippetSuggestions": "top",
+  "editor.fontFamily": "'Fira Code','DejaVu Sans Mono', Menlo, monospace",
+  "editor.fontLigatures": true,
+  "fileutils.delete.confirm": false,
+  "fileutils.delete.useTrash": true,
+  "workbench.editor.showIcons": true,
+  "workbench.editor.labelFormat": "default",
+  "workbench.fontAliasing": "default",
+  "editor.fontWeight": "500",
+  "editor.renderIndentGuides": false,
+  "sync.syncExtensions": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "extensions.autoUpdate": true,
+  "terminal.integrated.cursorBlinking": true,
+  "markdown-checkbox.typeOfBulletPoint": "-",
+  "markdown-checkbox.strikeThroughWhenChecked": true,
+  "explorer.openEditors.visible": 0,
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "gitlens.blame.highlight.locations": [
+    "gutter",
+    "overview",
+    "line"
+  ],
+  "gitlens.currentLine.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "gitlens.historyExplorer.enabled": false,
+  "php.suggest.basic": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "git-commit": true,
+    "javascript": true,
+    "javascriptreact": true
+  },
+  "markdownlint.config": {
+    "default": true,
+    "MD029": {
+      "style": "ordered"
+    }
+  },
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "todohighlight.isEnable": true
+}

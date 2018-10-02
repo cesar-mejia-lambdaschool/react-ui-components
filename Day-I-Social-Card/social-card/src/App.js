@@ -8,8 +8,10 @@ const App = () => {
   return (
     <Fragment>
       <HeaderContainer />
-      {/* <CardContainer/>
-      <Footer/> */}
+      <i className='far fa-comment' />
+      <i class='fas fa-sync-alt' />
+      <i class='far fa-heart' />
+      <i class='far fa-envelope' />
     </Fragment>
   )
 }
